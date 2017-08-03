@@ -1,0 +1,81 @@
+/* Agrega aquí tus estilos*/
+body 
+{ 
+	background: #A2EEEC; 
+	color: black;
+
+  	margin-left: 30px;
+  	margin-right: 30px;
+  	margin-top: 20px;
+  	margin-bottom: 10px;
+  	background-image: url("img/fondo.jpg");
+    /*background-repeat: no-repeat;*/
+}
+h1 
+{
+	text-align: center;
+	color: blue;
+	align-self:center;
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+          background-image: url("img/head.jpg");
+          margin-left: 5px;
+  	margin-right: 5px;
+  	margin-top: 20px;
+  	margin-bottom: 10px;
+}
+p 
+{ 
+	color: purple; 
+	font-family: Verdana; 
+	font-size: 100%;
+	text-align: justify;
+	padding: 10px 50px 30px 20px;
+
+}
+p::first-letter
+{
+	font-size: 200%;
+	color: gold;
+} 
+
+a:link
+{
+	color: blue;
+}
+a:visited
+{
+	color: purple;
+}
+nav, ul, li
+		{
+			padding: 8px 10px;
+			color: 
+			vertical-align: bottom;
+			font-size: 0.5cm;
+			
+		}
+nav > ul > li:nth-child(odd)
+		{
+			background: rgba(244,244,244,0.5);
+		}
+nav > ul > li:hover
+		{
+			background-color: rgba(0,0,0,0.1);
+		}
+div, ul, li
+		{
+			padding: 8px 10px;
+			color: 
+			vertical-align: bottom;
+			font-size: 0.5cm;
+			
+		}
+div > ul > li:nth-child(odd)
+		{
+			background: rgba(244,244,244,0.5);
+		}
+div > ul > li:hover
+		{
+			background-color: rgba(0,0,0,0.1);
+		}
